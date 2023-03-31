@@ -7,27 +7,46 @@
 
 
 .swapbutton {
-  width: 2460px;
-  height: 2460px;
+  width: 2260px;
+  height: 2260px;
   border-radius: 50%;
   filter: blur(10px);
 }
 
 
 
-.swapbutton span {
-  /* margin-right: -350px; */
+.swapbutton .s1 {
+  position: absolute;
   width: 100%;
   height: 100%;
   border-radius: 50%;
   background: linear-gradient(#d4ff28, #e24ac1f7, #561af1e2);
   filter: blur(10px);
-  animation: animate 25s linear infinite;
+  animation: animates1 15s linear infinite;
+}
+
+.swapbutton .s2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(#6128ff, #d1ec09f7, #e640d6e2);
+  filter: blur(10px);
+  animation: animates2 15s linear infinite;
 }
 
 
 
-@keyframes animate {
+@keyframes animates1 {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes animates2 {
   0% {
       transform: rotate(0deg);
   }

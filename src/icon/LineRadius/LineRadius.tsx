@@ -5,7 +5,7 @@ import './LineRadius.css'
 const LineRadius = () => {
     return (
         <div className='w-full h-full flex justify-center items-center opacity-40'>
-            <svg className='svgLineRadius z-0'  width="1885" height="1080" viewBox="0 0 1885 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='svgLineRadius z-0'   viewBox="0 0 1885 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1458.52 1029.66C1301.7 1186.47 1301.67 1440.68 1458.44 1597.46C1615.21 1754.23 1869.43 1754.19 2026.24 1597.38C2183.06 1440.56 2183.09 1186.35 2026.32 1029.58C1869.55 872.804 1615.34 872.84 1458.52 1029.66Z" stroke="#BE9AFF" strokeWidth="2" strokeMiterlimit="10"/>
                 <path d="M1378.48 1017.03C1202.97 1192.54 1202.93 1477.05 1378.39 1652.5C1553.84 1827.96 1838.36 1827.92 2013.86 1652.42C2189.37 1476.91 2189.4 1192.4 2013.95 1016.94C1838.49 841.486 1553.98 841.526 1378.48 1017.03Z" stroke="#BE9AFF" strokeWidth="2" strokeMiterlimit="10"/>
                 <path d="M1296.76 990.836C1102.57 1185.03 1102.53 1499.83 1296.66 1693.96C1490.8 1888.1 1805.6 1888.05 1999.79 1693.87C2193.98 1499.68 2194.02 1184.88 1999.89 990.74C1805.75 796.604 1490.95 796.647 1296.76 990.836Z" stroke="#BE9AFF" strokeWidth="2" strokeMiterlimit="10"/>
