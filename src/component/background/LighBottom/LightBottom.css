@@ -10,7 +10,7 @@
   width: 2260px;
   height: 2260px;
   border-radius: 50%;
-  filter: blur(10px);
+  filter: blur(20px);
 }
 
 
@@ -20,8 +20,8 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: linear-gradient(#d4ff28, #e24ac1f7, #561af1e2);
-  filter: blur(10px);
+  background: linear-gradient(#d4ff28, #e24ac1, #571af1);
+  filter: blur(20px);
   animation: animates1 15s linear infinite;
   margin-left: -96px;
 }
@@ -32,7 +32,7 @@
   height: 100%;
   border-radius: 50%;
   background: linear-gradient(#6128ff, #d1ec09f7, #e640d6e2);
-  filter: blur(10px);
+  filter: blur(20px);
   animation: animates2 15s linear infinite;
   margin-left: 96px;
 }
