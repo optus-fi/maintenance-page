@@ -1,5 +1,5 @@
 .swapanimation {
-  margin-top: -130px;
+  margin-top: -110px;
 
    
 }
@@ -23,6 +23,7 @@
   background: linear-gradient(#d4ff28, #e24ac1f7, #561af1e2);
   filter: blur(10px);
   animation: animates1 15s linear infinite;
+  margin-left: -96px;
 }
 
 .swapbutton .s2 {
@@ -33,6 +34,7 @@
   background: linear-gradient(#6128ff, #d1ec09f7, #e640d6e2);
   filter: blur(10px);
   animation: animates2 15s linear infinite;
+  margin-left: 96px;
 }
 
 
@@ -52,5 +54,51 @@
   }
   100% {
       transform: rotate(360deg);
+  }
+}
+
+
+
+@media (max-width: 1000px) {
+  .swapbutton {
+    width: 1560px;
+    height: 1560px;
+    border-radius: 50%;
+    filter: blur(10px);
+  }
+
+  .swapbutton .s1 {
+    margin-left: -48px;
+  }
+
+  .swapbutton .s2 {
+    margin-left: 48px;
+  }
+}
+
+@media (max-width: 790px) {
+  .swapbutton {
+    width: 860px;
+    height: 860px;
+    border-radius: 50%;
+    filter: blur(10px);
+  }
+}
+
+
+@media (max-width: 550px) {
+  .swapbutton {
+    width: 560px;
+    height: 560px;
+    border-radius: 50%;
+    filter: blur(10px);
+  }
+
+  .swapbutton .s1 {
+    margin-left: -28px;
+  }
+
+  .swapbutton .s2 {
+    margin-left: 28px;
   }
 }
