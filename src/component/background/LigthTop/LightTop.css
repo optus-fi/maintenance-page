@@ -1,0 +1,28 @@
+.ligtTOPwrapper {
+  position: fixed;
+  margin-top: -140px;
+  width: 32%;
+}
+
+
+
+.ligtTOP {
+  width: 30%;
+  height: 914px;
+  border-radius: 50%;
+  filter: blur(30px);
+}
+
+
+
+.ligtTOP span {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(#5a13e0, #b898f1, #764ddfe2);
+  filter: blur(30px);
+
+}
+
+
+
